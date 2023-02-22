@@ -78,7 +78,7 @@ i = j + 1; /* increment past nulled ';'' */
 if (i >= len) /* reached end of buffer? */
 {
 i = len = 0; /* reset position and length */
-info->cmd_buf_type = CMD_NORM;
+info->cmd_buf_type = CMD_NORM0
 }
 
 *buf_p = p; /* pass back pointer to current command position */

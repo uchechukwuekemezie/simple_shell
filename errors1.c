@@ -101,7 +101,7 @@ char sign = 0;
 char *ptr;
 unsigned long n = num;
 
-if (!(flags & CONVERT_UNSIGNED2) && (num < 0))
+ if (!(flags & CONVERT_UNSIGNED2) && (num < 0))
 {
 n = -num;
 sign = '-';
